@@ -1,5 +1,7 @@
 ## hey, I'm Ashwin 👋 — currently breaking things in OpenSpec land 🔧
 
+Go 为主，TS / Python / Java 也写。
+
 - **[spec-cli](https://github.com/9Ashwin/spec-cli)** — one-command OpenSpec + Superpowers scaffold for 30+ AI coding platforms. **Go.**
 - **[Memknow](https://github.com/9Ashwin/Memknow)** — Feishu-based AI agent with Claude Code scheduling & long-term memory. **TypeScript.**
 
