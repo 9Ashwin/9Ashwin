@@ -10,11 +10,13 @@
 - 不绕过平台验证；评论、私信等操作有账号与平台风险
 
 ```bash
-npm install -g github:9Ashwin/ShuaDouyin
+npm install -g shuadouyin
 dy guide
 ```
 
-TypeScript · Node.js 22.19+ · MIT
+包名是 `shuadouyin`，命令是 `dy`。也可以从源码装：`npm install -g github:9Ashwin/ShuaDouyin`。
+
+TypeScript · Node.js 22.19+ · MIT · [npm](https://www.npmjs.com/package/shuadouyin)
 
 ## 其他项目
 
