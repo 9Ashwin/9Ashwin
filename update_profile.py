@@ -286,13 +286,11 @@ def render(mode: str, stats: dict) -> str:
         out.append(
             f'<text x="{x_base:.1f}" y="{y:.1f}" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>'
         )
-    row = 0
-    for segs in info_lines(stats):
+    for i, segs in enumerate(info_lines(stats)):
         if not segs:
             continue
         spans = "".join(f'<tspan fill="{p[c]}">{html.escape(t)}</tspan>' for t, c in segs)
-        out.append(f'<text x="390" y="{45 + row * 21}" xml:space="preserve">{spans}</text>')
-        row += 1
+        out.append(f'<text x="390" y="{45 + i * 21}" xml:space="preserve">{spans}</text>')
     out.append("</svg>")
     return "\n".join(out)
 
