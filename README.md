@@ -4,11 +4,11 @@ Hi — I'm Ashwin Wu. I build agent-facing CLIs and small tools that stay local,
 
 ## 🚀 Projects
 
-- **[flow-one](https://github.com/9Ashwin/flow-one)** — workflow / agent glue I'm iterating on
+- **[flow-one](https://github.com/9Ashwin/flow-one)** — local reverse proxy so Claude Code CLI can use WorkBuddy / OpenCode free tiers
 - **[ShuaDouyin](https://github.com/9Ashwin/ShuaDouyin)** — local CLI/TUI for browsing public Douyin content with memory and receipts
 - **[x-cli](https://github.com/9Ashwin/x-cli)** — X/Twitter tooling for agents and scripts
 - **[sticker-cli](https://github.com/9Ashwin/sticker-cli)** — local sticker / meme CLI for agents
-- **[im-toolbox](https://github.com/9Ashwin/im-toolbox)** — messaging integrations and helpers for agent workflows
+- **[im-toolbox](https://github.com/9Ashwin/im-toolbox)** — Go MCP server for WeChat data (structured tools, single binary)
 
 ## ⚙️ Tech stack
 
